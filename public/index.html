@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login form test</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section id="cover" class="min-vh-100">
+      <div id="cover-caption">
+        <div class="d-flex bd-highlight">
+          <div class="w-25 vh-100 p-2 flex-fill bd-highlight" id="nava">
+            <button type="button" class="btn btn-primary mb-3" id="getSiteList">
+              Show Markers
+            </button>
+            <button type="button" class="btn btn-primary mb-3" id="removeMarkers">
+              Remove Markers
+            </button>
+            <button type="button" class="btn btn-primary mb-3" id="addLines">Show Lines</button>
+            <button type="button" class="btn btn-primary mb-3" id="removeLines">
+              Remove Lines
+            </button>
+          </div>
+
+          <div class="w-75 vh-100 p-2 flex-fill bd-highlight" id="mapid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="bundle.js"></script>
+  </body>
+</html>
